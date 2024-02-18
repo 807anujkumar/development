@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+     
+
+}
+.contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+} 
+.contant form{
+
+    margin-top: 10%;
+    /* background-color:#111111; */
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(30,4,10,1) 100%);
+
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+      justify-content: space-evenly;
+     align-items: center;
+     width: 20%;
+      height: 400px;
+      padding-bottom: 30px;
+      margin-right: 20px;
+      left: 20px;
+      border-radius: 10px;
+      box-shadow: grey;
+      margin-top: 30px;
+}
+.calculator{
+    display: flex;
+      flex-direction: column;
+    row-gap:20px ;
+    
+}
+.row input{
+ width: 40px;
+ height: 40px;
+  
+   justify-content:space-between;
+   color: rgb(237, 227, 227);
+   font-weight:bold;
+   font-size:medium;
+   /* background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
+   /* background-color:#3E3A3A; */
+   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(30,4,10,1) 100%);
+
+
+   border-radius:50%;
+   border: none;
+
+}
+.row{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    column-gap: 40px;
+    
+}
+.result{
+    position: relative;
+}
+.result input{
+    /* background-color: black; */
+    background: radial-gradient(circle, rgb(100, 106, 137) 0%, rgba(30,4,10,1) 100%);
+
+    color: white;
+    border: none;
+      display: flex;
+      align-items: center;
+    width: 300px;
+    height: 60px;
+   margin-bottom: 20px;
+    font-weight:bolder;
+    font-size: x-large;
+    font-style:normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width: 0;
+     
+}
+.row input:hover{
+    background-color: grey;
+    transform: scale(1.15);
+    transition: all;
+    transition-duration: 1s;
+    color: rgb(11, 214, 214);
+}
+.result input:hover{
+    border: none;
+}
+.result input :placeholder{
+    font-size: small;
+    color: white;
+}
+ h1{
+      color: rgb(49, 50, 57);
+     letter-spacing: 1px;
+     font-size:xx-large;
+     font-weight: bold;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Arial, Helvetica, sans-serif;
+}
+.additonal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+     
+    
+}
+.History{
+     margin-right: 50px;
+     padding-left: 1px;
+    margin-bottom: 12%;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Advanced{
+    padding-right: 20;
+    margin-bottom: 12%;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
