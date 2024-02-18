@@ -1,0 +1,13 @@
+.contant{
+    border: 2px solid rgb(253, 253, 253);
+    background: linear-gradient(90deg, rgb(48, 206, 0) -2%, rgba(24,111,121,1) 0%, rgb(8, 102, 242) 0%, rgb(205, 7, 227) 19%, rgba(60,87,232,1) 33%, rgba(63,251,246,1) 100%);
+    margin: 20px;
+    width: 35%;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+ 

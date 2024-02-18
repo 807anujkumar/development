@@ -1,0 +1,43 @@
+
+.Dinput{
+ 
+margin: 10px 10px px;
+margin-left: 10px;
+ 
+}
+
+.heading{
+color:black;
+font-size: xx-large;
+font-weight: 800;
+}
+.btm{
+background-color: rgb(217, 0, 255);
+width: 60px;
+border: none;
+border-radius: 5px;
+outline: 0;
+cursor: pointer;
+
+float: right;
+margin-right: 10px;
+text-align: center;
+ 
+}
+.btm:hover{
+  background-color: rgb(9, 250, 9);
+}
+.item{
+width: 100%;
+margin: 10px;
+list-style: none;
+color: rgb(0, 0, 0);
+font-weight: 700;
+font-size: x-large;
+
+}
+.para{
+  color: black;
+  font-weight: 800;
+  font-size: x-large;
+}
